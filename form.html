@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AMASIDO – Digital Smart School</title>
+    <link rel="icon" type="image/png" href="img/logo.png" class="logo"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark">
+        <div class="row py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center text-white">
+                    <small><i class="fa fa-phone-alt mr-2"></i>+62 812 2411 1326</small>
+                    <small class="px-3">|</small>
+                    <small><i class="fa fa-envelope mr-2"></i>amasido@gmail.com</small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-white pl-2" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/navbar-logo.png" alt="Logo" class="logo">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mx-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="course.html" class="nav-item nav-link">Courses</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="form.html" class="btn btn-primary py-2 px-4 d-none d-lg-block">Daftar Sekarang</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+     <!-- Admission Form Start -->
+        <div class="container-fluid py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+            <h6 class="text-secondary text-uppercase">Pendaftaran Siswa Baru</h6>
+            <h1 class="display-4">Formulir Penerimaan Peserta Didik Baru</h1>
+            <p class="text-muted">Isi data di bawah ini untuk bergabung bersama AMASIDO Digital Smart School 🚀</p>
+            </div>
+
+            <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="bg-white rounded shadow p-5">
+                <form enctype="multipart/form-data">
+                    
+                    <!-- Data Pribadi -->
+                    <h5 class="text-primary mb-3">Data Pribadi</h5>
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Nama Lengkap</label>
+                        <input type="text" id="namaLengkap" class="form-control border-0 bg-light px-4" placeholder="Nama lengkap anda" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>NISN</label>
+                        <input type="text" id="nisn" class="form-control border-0 bg-light px-4" placeholder="Opsional">
+                    </div>
+                    </div>
+
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Jenis Kelamin</label>
+                        <select class="form-control border-0 bg-light px-4">
+                        <option selected>Pilih...</option>
+                        <option>Laki-laki</option>
+                        <option>Perempuan</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Tanggal Lahir</label>
+                        <input type="date" class="form-control border-0 bg-light px-4">
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                    <label>Alamat Lengkap</label>
+                    <textarea class="form-control border-0 bg-light px-4" rows="3" placeholder="Alamat tempat tinggal"></textarea>
+                    </div>
+
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>No. HP / WhatsApp</label>
+                        <input type="tel" id="noTelp" class="form-control border-0 bg-light px-4" placeholder="+62...">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Email</label>
+                        <input type="email" id="email" class="form-control border-0 bg-light px-4" placeholder="email@gmail.com">
+                    </div>
+                    </div>
+
+                    <!-- Data Akademik -->
+                    <h5 class="text-primary mb-3 mt-4">Data Akademik</h5>
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Asal Sekolah</label>
+                        <input type="text" class="form-control border-0 bg-light px-4" placeholder="Nama sekolah asal">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Program yang diminati</label>
+                        <select class="form-control border-0 bg-light px-4" id="program">
+                        <option selected>Pilih...</option>
+                        <option>Digital Learning System</option>
+                        <option>Web Development</option>
+                        <option>Data Analytics</option>
+                        <option>Cybersecurity</option>
+                        </select>
+                    </div>
+                    </div>
+
+                    <!-- Data Orang Tua -->
+                    <h5 class="text-primary mb-3 mt-4">Data Orang Tua / Wali</h5>
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Nama Orang Tua / Wali</label>
+                        <input type="text" class="form-control border-0 bg-light px-4" placeholder="Nama lengkap">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>No. HP Orang Tua / Wali</label>
+                        <input type="tel" class="form-control border-0 bg-light px-4" placeholder="+62...">
+                    </div>
+                    </div>
+
+                    <!-- Upload Dokumen -->
+                <h5 class="text-primary mb-3 mt-4">Upload Dokumen</h5>
+                <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Upload Pas Foto (jpg/png)</label>
+                    <input type="file" class="form-control-file" id="fotoInput" accept="image/*">
+                    <div class="mt-3 text-center">
+                    <img id="fotoPreview" src="#" alt="Preview Foto" class="img-fluid rounded shadow-sm d-none" style="max-height: 180px;">
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Upload Ijazah / SKL (pdf/jpg/png)</label>
+                    <input type="file" class="form-control-file" id="dokumenInput" accept=".pdf,image/*">
+                    <div class="mt-3 text-center">
+                    <iframe id="dokumenPreview" src="#" class="d-none border rounded shadow-sm" style="width: 100%; height: 180px;"></iframe>
+                    <img id="dokumenImgPreview" src="#" alt="Preview Dokumen" class="img-fluid rounded shadow-sm d-none" style="max-height: 180px;">
+                    </div>
+                </div>
+                </div>
+
+                    <!-- Tombol -->
+                    <div class="text-center mt-5">
+                    <button type="button" class="btn btn-primary py-3 px-5"  onclick="submitForm()">Daftar Sekarang</button>
+                    </div>
+
+                </form>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    <!-- Admission Form End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;">
+    <div class="container mt-5 pt-5">
+        <div class="row">
+        <div class="col-md-6 mb-5">
+            <a href="index.html" class="navbar-brand">
+            <img src="img/navbar-logo.png" alt="Logo" class="logo">
+            </a>
+            <p class="m-0">
+            Bersama AMASIDO, wujudkan pendidikan yang cerdas, berintegritas, dan siap menghadapi era digital.
+            </p>
+        </div>
+
+        <div class="col-md-6 mb-5">
+            <h3 class="text-white mb-4">Newsletter</h3>
+            <div class="input-group">
+            <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
+            <div class="input-group-append">
+                <button class="btn btn-primary px-4">Sign Up</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row">
+        <!-- Kontak -->
+        <div class="col-md-4 mb-5">
+            <h3 class="text-white mb-4">Get In Touch</h3>
+            <p><i class="fa fa-map-marker-alt mr-2"></i>24 Rajawali, Jakarta</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>+62 812 2411 1326</p>
+            <p><i class="fa fa-envelope mr-2"></i>amasido@gmail.com</p>
+            <div class="d-flex justify-content-start mt-4">
+            <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
+            <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
+            <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
+            <a class="text-white" href="#"><i class="fab fa-2x fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <!-- Courses -->
+        <div class="col-md-4 mb-5">
+            <h3 class="text-white mb-4">Our Courses</h3>
+            <div class="d-flex flex-column justify-content-start">
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Digital Learning System</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Data Management & School Analytics</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>UI/UX for Education Apps</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Web Development for School Systems</a>
+            <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Cybersecurity for Education Systems</a>
+            </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-5">
+            <h3 class="text-white mb-4">Quick Links</h3>
+            <div class="d-flex flex-column justify-content-start">
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Privacy Policy</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Terms & Condition</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Regular FAQs</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Help & Support</a>
+            <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="container-fluid bg-dark text-white-50 border-top py-3" style="border-color: rgba(256,256,256,.1) !important;">
+    <div class="container text-center">
+        <p class="m-0">
+        Copyright &copy; 2025 
+        <a class="text-white font-weight-bold" href="#">AMASIDO Digital Smart School</a> — Empowering Education Through Technology.
+        </p>
+    </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        // Preview foto
+        const fotoInput = document.getElementById('fotoInput');
+        const fotoPreview = document.getElementById('fotoPreview');
+
+        fotoInput.addEventListener('change', function() {
+            const file = this.files[0];
+            if (file) {
+            const reader = new FileReader();
+            fotoPreview.classList.remove('d-none');
+            reader.addEventListener('load', function() {
+                fotoPreview.setAttribute('src', this.result);
+            });
+            reader.readAsDataURL(file);
+            } else {
+            fotoPreview.classList.add('d-none');
+            }
+        });
+
+        // Preview dokumen (pdf atau gambar)
+        const dokumenInput = document.getElementById('dokumenInput');
+        const dokumenPreview = document.getElementById('dokumenPreview');
+        const dokumenImgPreview = document.getElementById('dokumenImgPreview');
+
+        dokumenInput.addEventListener('change', function() {
+            const file = this.files[0];
+            if (file) {
+            const fileType = file.type;
+            const reader = new FileReader();
+
+            if (fileType === 'application/pdf') {
+                dokumenPreview.classList.remove('d-none');
+                dokumenImgPreview.classList.add('d-none');
+                reader.addEventListener('load', function() {
+                dokumenPreview.setAttribute('src', this.result);
+                });
+            } else if (fileType.startsWith('image/')) {
+                dokumenImgPreview.classList.remove('d-none');
+                dokumenPreview.classList.add('d-none');
+                reader.addEventListener('load', function() {
+                dokumenImgPreview.setAttribute('src', this.result);
+                });
+            }
+            reader.readAsDataURL(file);
+            } else {
+            dokumenPreview.classList.add('d-none');
+            dokumenImgPreview.classList.add('d-none');
+            }
+        });
+
+        // Fungsi untuk menangani submit form
+        function submitForm() {
+            // Ambil data dari form
+            const data = {
+                nama: document.getElementById('namaLengkap').value,
+                nisn: document.getElementById('nisn').value,
+                telp: document.getElementById('noTelp').value,
+                email: document.getElementById('email').value,
+                program: document.getElementById('program').value,
+                status: 'Menunggu Konfirmasi'
+            };
+
+            // Validasi sederhana
+            if (!data.nama || !data.email || data.program === "Pilih...") {
+                alert("Harap isi semua data penting (Nama, Email, dan Program).");
+                return;
+            }
+
+            // Simpan ke sessionStorage (untuk confirmation.html)
+            sessionStorage.setItem('formData', JSON.stringify(data));
+
+            // Simpan juga ke localStorage (untuk admin & status.html)
+            const daftar = JSON.parse(localStorage.getItem('daftarPendaftar')) || [];
+            daftar.push(data);
+            localStorage.setItem('daftarPendaftar', JSON.stringify(daftar));
+
+            // Tampilkan pesan sukses
+            const toast = document.createElement("div");
+            toast.innerHTML = `
+                <div class="position-fixed w-100 h-100 d-flex justify-content-center align-items-center" 
+                style="top:0; left:0; background:rgba(0,0,0,0.4); z-index:1050;">
+                <div class="bg-white text-center rounded shadow p-4" style="max-width: 350px;">
+                    <i class="fa fa-check-circle text-success mb-3" style="font-size: 3rem;"></i>
+                    <h5 class="text-success">Pendaftaran Berhasil!</h5>
+                    <p class="text-muted mb-0">Kamu akan diarahkan ke halaman konfirmasi...</p>
+                </div>
+                </div>
+            `;
+            document.body.appendChild(toast);
+
+            // Setelah 1 detik, hapus toast & pindah ke confirmation.html
+            setTimeout(() => {
+                toast.remove();
+                window.location.href = 'confirmation.html';
+            }, 1000);
+        }
+
+    </script>
+
+</body>
+
+</html>

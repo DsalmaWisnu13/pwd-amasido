@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Admin – AMASIDO Digital Smart School</title>
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Bootstrap & Style -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark">
+        <div class="row py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center text-white">
+                    <small><i class="fa fa-phone-alt mr-2"></i>+62 812 2411 1326</small>
+                    <small class="px-3">|</small>
+                    <small><i class="fa fa-envelope mr-2"></i>amasido@gmail.com</small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-white pl-2" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+  <!-- Navbar -->
+  <div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+      <a href="index.html" class="navbar-brand">
+        <img src="img/navbar-logo.png" alt="Logo" class="logo">
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+        <div class="navbar-nav mx-auto py-0">
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <a href="about.html" class="nav-item nav-link">About</a>
+          <a href="course.html" class="nav-item nav-link">Courses</a>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+        <a href="form.html" class="btn btn-primary py-2 px-4 d-none d-lg-block">Tambah Pendaftar</a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Admin Table -->
+  <div class="container-fluid py-5 bg-light">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h6 class="text-secondary text-uppercase">Panel Admin</h6>
+        <h1 class="display-4">Daftar Pendaftar Siswa Baru</h1>
+        <p class="text-muted">Pantau seluruh pendaftar <strong>AMASIDO Digital Smart School</strong> secara real-time 📊</p>
+      </div>
+
+      <div class="table-responsive bg-white rounded shadow p-4">
+        <table class="table table-bordered table-hover mb-0">
+          <thead class="thead-dark text-center">
+            <tr>
+              <th>No</th>
+              <th>Nama Lengkap</th>
+              <th>NISN</th>
+              <th>No. HP</th>
+              <th>Email</th>
+              <th>Program</th>
+              <th>Status</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody" class="text-center">
+            <!-- Data pendaftar otomatis muncul di sini -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Start -->
+  <div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;">
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-md-6 mb-5">
+          <a href="index.html" class="navbar-brand">
+            <img src="img/navbar-logo.png" alt="Logo" class="logo">
+          </a>
+          <p class="m-0">
+            Bersama AMASIDO, wujudkan pendidikan yang cerdas, berintegritas, dan siap menghadapi era digital.
+          </p>
+        </div>
+
+        <div class="col-md-6 mb-5">
+          <h3 class="text-white mb-4">Newsletter</h3>
+          <div class="input-group">
+            <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="btn btn-primary px-4">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Kontak -->
+        <div class="col-md-4 mb-5">
+          <h3 class="text-white mb-4">Get In Touch</h3>
+          <p><i class="fa fa-map-marker-alt mr-2"></i>24 Rajawali, Jakarta</p>
+          <p><i class="fa fa-phone-alt mr-2"></i>+62 812 2411 1326</p>
+          <p><i class="fa fa-envelope mr-2"></i>amasido@gmail.com</p>
+          <div class="d-flex justify-content-start mt-4">
+            <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
+            <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
+            <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
+            <a class="text-white" href="#"><i class="fab fa-2x fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Courses -->
+        <div class="col-md-4 mb-5">
+          <h3 class="text-white mb-4">Our Courses</h3>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Digital Learning System</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Data Management & School Analytics</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>UI/UX for Education Apps</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Web Development for School Systems</a>
+            <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Cybersecurity for Education Systems</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-5">
+          <h3 class="text-white mb-4">Quick Links</h3>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Privacy Policy</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Terms & Condition</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Regular FAQs</a>
+            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Help & Support</a>
+            <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright Section -->
+  <div class="container-fluid bg-dark text-white-50 border-top py-3" style="border-color: rgba(256,256,256,.1) !important;">
+    <div class="container text-center">
+      <p class="m-0">
+        Copyright &copy; 2025 
+        <a class="text-white font-weight-bold" href="#">AMASIDO Digital Smart School</a> — Empowering Education Through Technology.
+      </p>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Script -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Ambil semua data dari localStorage
+    const daftarPendaftar = JSON.parse(localStorage.getItem('daftarPendaftar')) || [];
+
+    const tableBody = document.getElementById('tableBody');
+
+    function renderTable() {
+      tableBody.innerHTML = '';
+
+      if (daftarPendaftar.length === 0) {
+        tableBody.innerHTML = `
+          <tr><td colspan="8" class="text-muted">Belum ada data pendaftar</td></tr>
+        `;
+        return;
+      }
+
+      daftarPendaftar.forEach((p, index) => {
+        const row = `
+          <tr>
+            <td>${index + 1}</td>
+            <td>${p.nama}</td>
+            <td>${p.nisn || '-'}</td>
+            <td>${p.telp}</td>
+            <td>${p.email}</td>
+            <td>${p.program}</td>
+            <td>
+              <select class="form-control form-control-sm status-select" data-index="${index}">
+                <option ${p.status === 'Menunggu Konfirmasi' ? 'selected' : ''}>Menunggu Konfirmasi</option>
+                <option ${p.status === 'Diterima' ? 'selected' : ''}>Diterima</option>
+                <option ${p.status === 'Ditolak' ? 'selected' : ''}>Ditolak</option>
+              </select>
+            </td>
+            <td>
+              <button class="btn btn-danger btn-sm delete-btn" data-index="${index}">
+                <i class="fa fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+        `;
+        tableBody.innerHTML += row;
+      });
+
+      // Event: ubah status
+      document.querySelectorAll('.status-select').forEach(select => {
+        select.addEventListener('change', (e) => {
+          const i = e.target.getAttribute('data-index');
+          daftarPendaftar[i].status = e.target.value;
+          localStorage.setItem('daftarPendaftar', JSON.stringify(daftarPendaftar));
+        });
+      });
+
+      // Event: hapus data
+      document.querySelectorAll('.delete-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const i = e.target.closest('button').getAttribute('data-index');
+          if (confirm('Yakin ingin menghapus data ini?')) {
+            daftarPendaftar.splice(i, 1);
+            localStorage.setItem('daftarPendaftar', JSON.stringify(daftarPendaftar));
+            renderTable();
+          }
+        });
+      });
+    }
+
+    renderTable();
+  </script>
+</body>
+</html>
